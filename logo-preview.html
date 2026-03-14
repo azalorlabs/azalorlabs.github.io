@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Azalor Technologies — Logo Options</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background:#0b0f19; color:#e6edf3; font-family:'Inter',sans-serif; padding:60px 24px; }
+    h1 { text-align:center; font-size:1.75rem; margin-bottom:8px; }
+    .sub { text-align:center; color:#8b949e; margin-bottom:48px; font-size:0.95rem; }
+    .grid { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:32px; }
+    .card { background:#121826; border:1px solid rgba(91,140,255,0.08); border-radius:16px; padding:32px; text-align:center; transition:border-color .3s,transform .3s; }
+    .card:hover { border-color:rgba(91,140,255,0.2); transform:translateY(-4px); }
+    .card img { width:200px; height:200px; margin:0 auto 24px; }
+    .card h2 { font-size:1.1rem; margin-bottom:6px; }
+    .card p { color:#8b949e; font-size:0.85rem; line-height:1.6; }
+    .label { display:inline-block; background:rgba(91,140,255,0.1); color:#5b8cff; font-size:0.7rem; font-weight:600; padding:4px 12px; border-radius:6px; margin-bottom:16px; letter-spacing:0.08em; text-transform:uppercase; }
+    .wordmark { margin-top:64px; text-align:center; }
+    .wordmark h2 { font-size:1.2rem; margin-bottom:24px; }
+    .wm-row { display:flex; flex-wrap:wrap; justify-content:center; gap:32px; align-items:center; }
+    .wm-item { background:#121826; border:1px solid rgba(91,140,255,0.08); border-radius:14px; padding:28px 40px; display:flex; align-items:center; gap:16px; }
+    .wm-item img { width:48px; height:48px; }
+    .wm-item span { font-size:1.25rem; font-weight:700; letter-spacing:-0.02em; }
+    .accent { color:#5b8cff; }
+  </style>
+</head>
+<body>
+  <h1>Azalor Technologies — Logo Options</h1>
+  <p class="sub">Five SVG concepts. Pick one to use on the site.</p>
+
+  <div class="grid">
+    <div class="card">
+      <span class="label">Option A</span>
+      <img src="logos/logo-a-neural-lattice.svg" alt="Neural Lattice Logo"/>
+      <h2>Neural Lattice</h2>
+      <p>Abstract "A" formed by neural network nodes and connections. Represents deep learning and AI research.</p>
+    </div>
+    <div class="card">
+      <span class="label">Option B</span>
+      <img src="logos/logo-b-prism.svg" alt="Prism Logo"/>
+      <h2>Tessellated Prism</h2>
+      <p>Faceted geometric prism forming an "A". Suggests structured computation and analytical depth.</p>
+    </div>
+    <div class="card">
+      <span class="label">Option C</span>
+      <img src="logos/logo-c-waveform.svg" alt="Waveform Logo"/>
+      <h2>Signal Waveform</h2>
+      <p>Audio/data waveform that peaks into an "A" shape. Represents real-time streaming and signal processing.</p>
+    </div>
+    <div class="card">
+      <span class="label">Option D</span>
+      <img src="logos/logo-d-circuit.svg" alt="Circuit Logo"/>
+      <h2>Circuit Trace</h2>
+      <p>Clean geometric "A" with PCB-style circuit traces extending outward. Engineering precision aesthetic.</p>
+    </div>
+    <div class="card">
+      <span class="label">Option E</span>
+      <img src="logos/logo-e-hexagon.svg" alt="Hexagon Logo"/>
+      <h2>Hex Grid</h2>
+      <p>Bold "A" inside a hexagonal lattice. Scientific, structured, lab-grade identity.</p>
+    </div>
+  </div>
+
+  <div class="wordmark">
+    <h2>Wordmark Previews</h2>
+    <div class="wm-row">
+      <div class="wm-item">
+        <img src="logos/logo-a-neural-lattice.svg" alt=""/>
+        <span><span class="accent">Azalor</span> Technologies</span>
+      </div>
+      <div class="wm-item">
+        <img src="logos/logo-d-circuit.svg" alt=""/>
+        <span><span class="accent">Azalor</span> Technologies</span>
+      </div>
+      <div class="wm-item">
+        <img src="logos/logo-e-hexagon.svg" alt=""/>
+        <span><span class="accent">Azalor</span> Technologies</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

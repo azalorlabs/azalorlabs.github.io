@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Diamond lattice logo for Azalor Technologies -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Diamond outline -->
+    <polygon points="100,20 180,100 100,180 20,100" fill="none" stroke="white" stroke-width="5"/>
+    <!-- Diagonal cross lines (X through center) -->
+    <line x1="100" y1="20" x2="100" y2="180" stroke="white" stroke-width="4"/>
+    <!-- Blue horizontal crossbar -->
+    <line x1="20" y1="100" x2="180" y2="100" stroke="#5b8cff" stroke-width="5"/>
+    <!-- Inner X diagonals -->
+    <line x1="60" y1="60" x2="140" y2="140" stroke="white" stroke-width="3.5" opacity="0.7"/>
+    <line x1="140" y1="60" x2="60" y2="140" stroke="white" stroke-width="3.5" opacity="0.7"/>
+    <!-- Extension traces past corners -->
+    <line x1="100" y1="20" x2="100" y2="6" stroke="white" stroke-width="3.5" opacity="0.6"/>
+    <line x1="100" y1="180" x2="100" y2="194" stroke="white" stroke-width="3.5" opacity="0.6"/>
+    <line x1="20" y1="100" x2="6" y2="100" stroke="white" stroke-width="3.5" opacity="0.6"/>
+    <line x1="180" y1="100" x2="194" y2="100" stroke="white" stroke-width="3.5" opacity="0.6"/>
+  </g>
+  <!-- Corner nodes -->
+  <circle cx="100" cy="20" r="8" fill="white"/>
+  <circle cx="180" cy="100" r="8" fill="white"/>
+  <circle cx="100" cy="180" r="8" fill="white"/>
+  <circle cx="20" cy="100" r="8" fill="white"/>
+  <!-- Center node (blue) -->
+  <circle cx="100" cy="100" r="7" fill="#5b8cff"/>
+  <!-- Inner intersection nodes -->
+  <circle cx="60" cy="60" r="5" fill="white" opacity="0.8"/>
+  <circle cx="140" cy="60" r="5" fill="white" opacity="0.8"/>
+  <circle cx="60" cy="140" r="5" fill="white" opacity="0.8"/>
+  <circle cx="140" cy="140" r="5" fill="white" opacity="0.8"/>
+</svg>
